@@ -14,7 +14,7 @@ const projects = [
 ];
 
 const skills = [
-  "React.js", "JavaScript", "TypeScript", "Java", "Spring Boot", "Angular JS", "MySQL", "Git", "REST APIs"
+  "React.js", "JavaScript", "TypeScript", "Java", "Spring Boot", "Angular JS", "MySQL", "Git", "REST APIs", "C#", "Python"
 ];
 
 const experience = [
