@@ -3,76 +3,84 @@ import { Github, Linkedin, Mail, Download } from "lucide-react";
 import { motion } from "framer-motion";
 
 const projects = [
-  {
-    title: "Simon Game",
-    description: "A memory-based game designed to sharpen focus and reflexes.",
-    tech: ["JavaScript", "HTML", "CSS"],
-    github: "https://github.com/praveen2143/Simon-Game",
-    live: "https://praveen2143.github.io/Simon-Game/",
-    image: "https://source.unsplash.com/800x600/?technology,game",
-  },
-  {
-    title: "Note Taking App",
-    description: "A sleek and efficient note manager built with React.",
-    tech: ["React", "JavaScript", "CSS"],
-    github: "https://github.com/praveen2143/React-Note-Taking-App",
-    live: "https://react-note-app-demo.vercel.app/",
-    image: "https://source.unsplash.com/800x600/?notes,productivity",
-  },
-  {
-    title: "Plant Seedlings Classifier",
-    description: "AI-powered image classifier for identifying plant seedlings.",
-    tech: ["Python", "Machine Learning", "OpenCV"],
-    github: "https://github.com/praveen2143/Plant-Seedlings-Classifier",
-    live: "#",
-    image: "https://source.unsplash.com/800x600/?ai,plants",
-  },
+  // {
+  //   title: "Simon Game",
+  //   description: "A memory-based game designed to sharpen focus and reflexes.",
+  //   tech: ["JavaScript", "HTML", "CSS"],
+  //   github: "https://github.com/praveen2143/Simon-Game",
+  //   live: "https://praveen2143.github.io/Simon-Game/",
+  //   image: "https://source.unsplash.com/800x600/?technology,game",
+  // }
 ];
 
 const skills = [
-  "React.js", "JavaScript", "TypeScript", "Java", "Spring Boot", "Angular", "Node.js", "MongoDB", "MySQL", "Git", "REST APIs"
+  "React.js", "JavaScript", "TypeScript", "Java", "Spring Boot", "Angular JS", "MySQL", "Git", "REST APIs"
 ];
 
 const experience = [
   {
-    title: "Systems Engineer",
-    company: "Tata Consultancy Services",
-    duration: "May 2021 - Present",
-    description: "Led agile development of enterprise systems, improved performance by 30%, and implemented scalable microservices using Spring Boot and React.js."
+    title: "Software Engineer",
+    company: "Mavens-i",
+    duration: "Sept 2023 - Present",
+    description: "Worked in FORD projects , Experince working in ReactJS and Springboot"
   },
   {
-    title: "Software Developer Intern",
-    company: "Virtusa",
-    duration: "Jan 2021 - Apr 2021",
-    description: "Built web apps using Angular and .NET, streamlined APIs, and collaborated in sprints for high-quality feature delivery."
-  }
+    title: "Software Engineer",
+    company: "Globallogic - A Hitachi Company",
+    duration: "April 2022 - Jun 2023",
+    description: "Worked in Projects Informatica and iCIMS . Worked in technologies using Java, Spring boot, React JS, Java, Jenkins, UTF framework."
+  },
+  {
+    title: "Software Engineer",
+    company: "Yali Infotect",
+    duration: "March 2020 - MArch 2022",
+    description: "Worked as a Fullstack Developer, working in technologies C#.NET MVC, MySQL, AngularJS,AWS, SVN"
+  },
+  {
+    title: "Junior Software Engineer",
+    company: "InTimeTec Visionsoft PVT LTD",
+    duration: "JAN 2019 - May 2019",
+    description: "Worked as a Devops Engineer. Expeience in using GIT, AWS, Jenkins"
+  },
 ];
 
-const hobbies = ["Space Exploration", "AI Research", "Chess", "Cycling", "Photography"];
+const hobbies = ["Badminton", "Cricket", "Reaing", "Movies", "Table Tennis"];
 
-const achievements = [
-  "Top 1% in HackerRank Java Certification",
-  "Presented research on AI in Agriculture at ICACSE 2021",
-  "Developed award-winning AR application for plant care",
-  "First place in TCS DevHackathon 2022"
-];
+// const achievements = [
+//   "Top 1% in HackerRank Java Certification",
+//   "Presented research on AI in Agriculture at ICACSE 2021",
+//   "Developed award-winning AR application for plant care",
+//   "First place in TCS DevHackathon 2022"
+// ];
 
 const certifications = [
   {
-    title: "AWS Certified Cloud Practitioner",
-    issuer: "Amazon Web Services",
+    title: "Python Essentials Certification",
+    issuer: "Linkedin",
     date: "Issued Jan 2024",
     credential: "https://www.credly.com/badges/example-link"
   },
   {
-    title: "Java Spring Boot Professional Certificate",
-    issuer: "Coursera",
+    title: "AMCAT Certified Software Development Trainee",
+    issuer: "AMCAT",
     date: "Issued Oct 2023",
     credential: "https://www.coursera.org/account/accomplishments/example"
   },
   {
-    title: "Frontend Development with React",
-    issuer: "Meta",
+    title: "AMCAT Certified Software Engineer Product and IT Services.",
+    issuer: "AMCAT",
+    date: "Issued Sep 2023",
+    credential: "https://coursera.org/verify/example"
+  },
+  {
+    title: "C#.NET Development Course",
+    issuer: "Refinement Technologies",
+    date: "Issued Sep 2023",
+    credential: "https://coursera.org/verify/example"
+  },
+  {
+    title: "AMCAT Certified Data Processing Specialist.",
+    issuer: "AMCAT",
     date: "Issued Sep 2023",
     credential: "https://coursera.org/verify/example"
   }
@@ -84,11 +92,11 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="text-center space-y-6">
         <h1 className="text-6xl font-bold text-green-400">Hi, I'm Praveen</h1>
-        <p className="text-lg text-gray-300 max-w-xl mx-auto">Creative Full Stack Developer with a passion for building futuristic digital experiences. Based in India. Driven by innovation, guided by curiosity.</p>
+        <p className="text-lg text-gray-300 max-w-xl mx-auto">Creative Software Engineer with a passion for building digital experiences. Based in India. Driven by innovation, guided by curiosity.</p>
         <div className="flex justify-center space-x-6">
-          <a href="mailto:praveen@example.com"><Mail className="text-green-400 hover:scale-110 transition" /></a>
+          <a href="mailto:praveensakthivel07@gmail.com"><Mail className="text-green-400 hover:scale-110 transition" /></a>
           <a href="https://github.com/praveen2143"><Github className="text-green-400 hover:scale-110 transition" /></a>
-          <a href="https://linkedin.com/in/praveen2143"><Linkedin className="text-green-400 hover:scale-110 transition" /></a>
+          <a href="www.linkedin.com/in/praveen-sakthivel07"><Linkedin className="text-green-400 hover:scale-110 transition" /></a>
           <a href="/resume.pdf" download><Download className="text-green-400 hover:scale-110 transition" /></a>
         </div>
       </section>
@@ -103,7 +111,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Projects Section */}
+      {/* Projects Section
       <section>
         <h2 className="text-5xl font-bold text-center text-green-400 mb-10">Projects</h2>
         <div className="grid md:grid-cols-2 gap-10">
@@ -128,7 +136,7 @@ export default function HomePage() {
             </motion.div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Experience Section */}
       <section>
@@ -144,13 +152,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Achievements Section */}
-      <section>
-        <h2 className="text-5xl font-bold text-center text-green-400 mb-10">Achievements</h2>
-        <ul className="list-disc list-inside max-w-2xl mx-auto text-gray-300 space-y-2">
-          {achievements.map((ach, idx) => <li key={idx}>{ach}</li>)}
-        </ul>
-      </section>
 
       {/* Hobbies Section */}
       <section>
@@ -176,14 +177,6 @@ export default function HomePage() {
             >
               <h3 className="text-2xl font-semibold text-green-300">{cert.title}</h3>
               <p className="text-sm text-gray-400">{cert.issuer}</p>
-              <p className="text-sm text-gray-500">{cert.date}</p>
-              <a
-                href={cert.credential}
-                target="_blank"
-                className="text-green-400 hover:underline text-sm"
-              >
-                View Credential
-              </a>
             </motion.div>
           ))}
         </div>
@@ -194,9 +187,9 @@ export default function HomePage() {
         <h2 className="text-5xl font-bold text-green-400">Let's Connect</h2>
         <p className="text-gray-400">Interested in collaborating or hiring? Reach out via email or connect on social platforms.</p>
         <div className="flex justify-center space-x-6">
-          <a href="mailto:praveen@example.com"><Mail className="text-green-400 hover:scale-110 transition" /></a>
+          <a href="mailto:praveensakthivel07@gmail.com"><Mail className="text-green-400 hover:scale-110 transition" /></a>
           <a href="https://github.com/praveen2143"><Github className="text-green-400 hover:scale-110 transition" /></a>
-          <a href="https://linkedin.com/in/praveen2143"><Linkedin className="text-green-400 hover:scale-110 transition" /></a>
+          <a href="www.linkedin.com/in/praveen-sakthivel07"><Linkedin className="text-green-400 hover:scale-110 transition" /></a>
         </div>
       </section>
     </div>
