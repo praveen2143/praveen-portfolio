@@ -32,7 +32,7 @@ const experience = [
   },
   {
     title: "Software Engineer",
-    company: "Yali Infotect",
+    company: "Yali Infotech",
     duration: "March 2020 - MArch 2022",
     description: "Worked as a Fullstack Developer, working in technologies C#.NET MVC, MySQL, AngularJS,AWS, SVN"
   },
@@ -44,7 +44,7 @@ const experience = [
   },
 ];
 
-const hobbies = ["Badminton", "Cricket", "Reaing", "Movies", "Table Tennis"];
+const hobbies = ["Badminton", "Cricket", "Reading", "Movies", "Table Tennis"];
 
 // const achievements = [
 //   "Top 1% in HackerRank Java Certification",
