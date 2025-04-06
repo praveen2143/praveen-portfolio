@@ -3,14 +3,14 @@ import { Github, Linkedin, Mail, Download } from "lucide-react";
 import { motion } from "framer-motion";
 
 const projects = [
-  // {
-  //   title: "Simon Game",
-  //   description: "A memory-based game designed to sharpen focus and reflexes.",
-  //   tech: ["JavaScript", "HTML", "CSS"],
-  //   github: "https://github.com/praveen2143/Simon-Game",
-  //   live: "https://praveen2143.github.io/Simon-Game/",
-  //   image: "https://source.unsplash.com/800x600/?technology,game",
-  // }
+  {
+    title: "ReactStoreX",
+    description: "A E-Commerce Website",
+    tech: ["JavaScript", "HTML", "CSS", "ReactJS"],
+    github: "https://github.com/praveen2143/reactstorex",
+    live: "https://reactstorex.vercel.app/",
+    image: "/reactstorex.png",
+  }
 ];
 
 const skills = [
@@ -111,7 +111,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Projects Section
+      {/* Projects Section */}
       <section>
         <h2 className="text-5xl font-bold text-center text-green-400 mb-10">Projects</h2>
         <div className="grid md:grid-cols-2 gap-10">
@@ -136,7 +136,7 @@ export default function HomePage() {
             </motion.div>
           ))}
         </div>
-      </section> */}
+      </section>
 
       {/* Experience Section */}
       <section>
