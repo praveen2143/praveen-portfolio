@@ -10,7 +10,16 @@ const projects = [
     github: "https://github.com/praveen2143/reactstorex",
     live: "https://reactstorex.vercel.app/",
     image: "/reactstorex.png",
-  }
+  },
+  {
+    title: "AstroWeatherX",
+    description: "A Weather Website",
+    tech: ["JavaScript", "HTML", "CSS", "ReactJS"],
+    github: "https://github.com/praveen2143/astroweatherx",
+    live: "https://astro-weather-x.vercel.app/",
+    image: "/astroweatherx.png",
+  },
+  
 ];
 
 const skills = [
@@ -96,7 +105,7 @@ export default function HomePage() {
         <div className="flex justify-center space-x-6">
           <a href="mailto:praveensakthivel07@gmail.com"><Mail className="text-green-400 hover:scale-110 transition" /></a>
           <a href="https://github.com/praveen2143"><Github className="text-green-400 hover:scale-110 transition" /></a>
-          <a href="www.linkedin.com/in/praveen-sakthivel07"><Linkedin className="text-green-400 hover:scale-110 transition" /></a>
+          <a href="https://www.linkedin.com/in/praveen-sakthivel07"><Linkedin className="text-green-400 hover:scale-110 transition" /></a>
           <a href="/resume.pdf" download><Download className="text-green-400 hover:scale-110 transition" /></a>
         </div>
       </section>
