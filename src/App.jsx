@@ -19,6 +19,14 @@ const projects = [
     live: "https://astro-weather-x.vercel.app/",
     image: "/astroweatherx.png",
   },
+  {
+    title: "AI Interview Simulator",
+    description: "A Mock Inteview Simulator using AI",
+    tech: ["JavaScript", "HTML", "CSS", "ReactJS"],
+    github: "https://github.com/praveen2143/ai-interview-simulator",
+    live: "https://ai-interview-simulator-zeta.vercel.app/",
+    image: "/ai-interview-simulator.png",
+  },
   
 ];
 
